@@ -14,5 +14,6 @@ export interface User extends Document {
   name: string;
   readonly password: string;
   adress: Address,
+  seller: boolean,
   created: Date;
 }
